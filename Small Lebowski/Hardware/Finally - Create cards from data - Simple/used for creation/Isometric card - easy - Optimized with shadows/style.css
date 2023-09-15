@@ -1,0 +1,211 @@
+/* Icon set - http://ionicons.com/ */
+/* https://ionic.io/ionicons/v2 */
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+body {
+  background-image: linear-gradient(
+      312deg,
+      rgba(0, 0, 0, 0.03) 0%,
+      rgba(0, 0, 0, 0.03) 41%,
+      rgba(2, 2, 2, 0.03) 41%,
+      rgba(2, 2, 2, 0.03) 45%,
+      rgba(21, 21, 21, 0.03) 45%,
+      rgba(21, 21, 21, 0.03) 53%,
+      rgba(108, 108, 108, 0.03) 53%,
+      rgba(108, 108, 108, 0.03) 58%,
+      rgba(198, 198, 198, 0.03) 58%,
+      rgba(198, 198, 198, 0.03) 73%,
+      rgba(201, 201, 201, 0.03) 73%,
+      rgba(201, 201, 201, 0.03) 88%,
+      rgba(190, 190, 190, 0.03) 88%,
+      rgba(190, 190, 190, 0.03) 100%
+    ),
+    linear-gradient(
+      244deg,
+      rgba(20, 20, 20, 0.03) 0%,
+      rgba(20, 20, 20, 0.03) 4%,
+      rgba(150, 150, 150, 0.03) 4%,
+      rgba(150, 150, 150, 0.03) 16%,
+      rgba(211, 211, 211, 0.03) 16%,
+      rgba(211, 211, 211, 0.03) 37%,
+      rgba(132, 132, 132, 0.03) 37%,
+      rgba(132, 132, 132, 0.03) 46%,
+      rgba(216, 216, 216, 0.03) 46%,
+      rgba(216, 216, 216, 0.03) 49%,
+      rgba(216, 216, 216, 0.03) 49%,
+      rgba(216, 216, 216, 0.03) 53%,
+      rgba(7, 7, 7, 0.03) 53%,
+      rgba(7, 7, 7, 0.03) 100%
+    ),
+    linear-gradient(
+      11deg,
+      rgba(54, 54, 54, 0.03) 0%,
+      rgba(54, 54, 54, 0.03) 27%,
+      rgba(244, 244, 244, 0.03) 27%,
+      rgba(244, 244, 244, 0.03) 33%,
+      rgba(72, 72, 72, 0.03) 33%,
+      rgba(72, 72, 72, 0.03) 39%,
+      rgba(216, 216, 216, 0.03) 39%,
+      rgba(216, 216, 216, 0.03) 41%,
+      rgba(218, 218, 218, 0.03) 41%,
+      rgba(218, 218, 218, 0.03) 80%,
+      rgba(165, 165, 165, 0.03) 80%,
+      rgba(165, 165, 165, 0.03) 86%,
+      rgba(172, 172, 172, 0.03) 86%,
+      rgba(172, 172, 172, 0.03) 100%
+    ),
+    linear-gradient(
+      114deg,
+      rgba(183, 183, 183, 0.03) 0%,
+      rgba(183, 183, 183, 0.03) 16%,
+      rgba(62, 62, 62, 0.03) 16%,
+      rgba(62, 62, 62, 0.03) 20%,
+      rgba(2, 2, 2, 0.03) 20%,
+      rgba(2, 2, 2, 0.03) 60%,
+      rgba(227, 227, 227, 0.03) 60%,
+      rgba(227, 227, 227, 0.03) 69%,
+      rgba(83, 83, 83, 0.03) 69%,
+      rgba(83, 83, 83, 0.03) 80%,
+      rgba(25, 25, 25, 0.03) 80%,
+      rgba(25, 25, 25, 0.03) 89%,
+      rgba(141, 141, 141, 0.03) 89%,
+      rgba(141, 141, 141, 0.03) 100%
+    ),
+    linear-gradient(
+      281deg,
+      rgba(25, 25, 25, 0.03) 0%,
+      rgba(25, 25, 25, 0.03) 14%,
+      rgba(132, 132, 132, 0.03) 14%,
+      rgba(132, 132, 132, 0.03) 86%,
+      rgba(226, 226, 226, 0.03) 86%,
+      rgba(226, 226, 226, 0.03) 90%,
+      rgba(195, 195, 195, 0.03) 90%,
+      rgba(195, 195, 195, 0.03) 91%,
+      rgba(133, 133, 133, 0.03) 91%,
+      rgba(133, 133, 133, 0.03) 92%,
+      rgba(41, 41, 41, 0.03) 92%,
+      rgba(41, 41, 41, 0.03) 98%,
+      rgba(203, 203, 203, 0.03) 98%,
+      rgba(203, 203, 203, 0.03) 100%
+    ),
+    linear-gradient(90deg, rgba(45, 45, 45, 0.2), rgba(27, 27, 27, 0.2));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  height: 100vh;
+  text-align: right;
+}
+* {
+  box-sizing: padding-box;
+  transition: all 0.6s ease-out;
+}
+
+.card {
+  font-family: "Raleway", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  height: 300px;
+  margin: 50px;
+  position: relative;
+  filter: drop-shadow(5px 60px 35px rgba(0, 0, 0, 0.4));
+  transform: skew(-10deg);
+}
+/*  The whole trick - simplified by me!
+box-shadow and skew I took from here:
+https://www.youtube.com/watch?v=ZKfZPBMtVTI
+*/
+.card:hover {
+  transform: skew(-10deg) translateY(-48px);
+  box-shadow: 16px 16px rgba(0, 0, 0, 0.3), 32px 32px rgba(0, 0, 0, 0.3), 48px 48px rgba(0, 0, 0, 0.3);
+}
+.card-img {
+  height: 100%;
+}
+.card-title {
+  position: absolute;
+  text-align: center;
+  left: 30px;
+  width: calc(100% - 60px);
+  top: 25%;
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  border-bottom: 0px;
+  opacity: 0.5;
+  text-shadow: 4px 4px 3px #000;
+}
+
+.card-text {
+  position: absolute;
+  opacity: 1;
+  left: 50px;
+  width: calc(100% - 100px);
+  text-align: center;
+  top: 40%;
+  font-size: 20px;
+  opacity: 0.5;
+}
+.card:hover  .card-text,
+.card:hover  .card-title
+ {
+  transform: translateY(-20px);
+  text-shadow: 8px 8px 3px #000;
+}
+
+.card-rectangle {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: inherit;
+  width: inherit;
+  opacity: 0.5;
+}
+
+.card:nth-child(1) .card-rectangle {
+  background-color: #0a212f;
+}
+.card:nth-child(2) .card-rectangle {
+  background-color: #36100c;
+}
+.card:nth-child(3) .card-rectangle {
+  background-color: #562e0a;
+}
+
+.card-lines-vertical,
+.card-lines-horizontal {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  opacity: 0.5;
+}
+.card-lines-vertical {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;  
+  transform: scale(1, 0.3);
+}
+.card:hover .card-lines-vertical {
+  transform: scale(1, 0.8);
+}
+.card-lines-horizontal {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transform: scale(0.3, 1);
+}
+.card:hover .card-lines-horizontal {
+  transform: scale(0.8, 1);
+}
+.card:hover .card-lines-vertical,
+.card:hover .card-lines-horizontal,
+.card:hover .card-text,
+.card:hover .card-title
+{
+  opacity: 1;
+}
+ 

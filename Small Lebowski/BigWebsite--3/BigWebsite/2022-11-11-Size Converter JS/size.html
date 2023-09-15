@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Number Converter - Units</title>
+  <link rel="shortcut icon" type="image/x-icon"
+    href="https://iconarchive.com/download/i86035/graphicloads/100-flat-2/calculator.ico" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="size.css" />
+  <script src="size.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="navcontainer">
+      <nav>
+        <h1 class="brand"><a href="../index.html">Number <span>Converter</span></a></h1>
+        <ul>
+          <li><a href="../index.html">Home Page</a></li>
+          <li><a href="../2022-11-04-Unit Converter JS/unit.html">Unit Converter</a></li>
+          <li><a href="#">Size Converter</a></li>
+          <li><a href="../2022-12-16-System Converter JS/numsys.html">System Converter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="bottom">
+    <div class="container bevelup">
+      <div class="title">Size Converter</div>
+      <div class="input-section">
+        <label class="label">Value:</label>
+        <input type="number" class="beveldn" value="" id="inputID" />
+        <br />
+        <label class="label">From</label>
+        <select id="sourceUnitID" class="bevelup">
+          <option value="kb">kb</option>
+          <option value="mb">mb</option>
+          <option value="gb">gb</option>
+          <option value="tb">tb</option>
+          <option value="kib">kib</option>
+          <option value="mib">mib</option>
+          <option value="gib">gib</option>
+          <option value="tib">tib</option>
+        </select>
+        <br />
+        <label class="label">To</label>
+        <select id="targetUnitID" class="bevelup">
+          <option value="kb">kb</option>
+          <option value="mb">mb</option>
+          <option value="gb">gb</option>
+          <option value="tb">tb</option>
+          <option value="kib">kib</option>
+          <option value="mib">mib</option>
+          <option value="gib">gib</option>
+          <option value="tib">tib</option>
+        </select>
+      </div>
+      <button class="bevelup" onclick="selectState()">Convert</button>
+      <div id="resultID">nothing converted yet</div>
+    </div>
+  </div>
+</body>
+
+</html>

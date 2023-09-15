@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #2c213e, #5d3b6c, #000000);
+    color: white;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.topBar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.descriptionTop {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 20px;
+
+    -webkit-animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-animation-delay: 1.0s;
+    animation-delay: 1.0s;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.hardwareComponent {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    margin: 20px;
+    animation: puff-in-right 0.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.overlay:hover {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+
+    --b: 0.1em;
+    /* the thickness of the line */
+    --c: #1095c1;
+    /* the color */
+
+    padding-block: var(--b);
+    background:
+        linear-gradient(var(--c) 50%, #000 0) 0% calc(100% - var(--_p, 0%))/100% 200%,
+        linear-gradient(var(--c) 0 0) 0% var(--_p, 0%)/var(--_p, 0%) var(--b) no-repeat;
+    -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+    transition: .3s var(--_s, 0s) linear, background-size .3s calc(.3s - var(--_s, 0s));
+}
+
+.hardwareComponent:hover {
+    --_p: 100%;
+    --_s: .3s;
+}
+
+
+.subtitle {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.long {
+    display: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.titleTop {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.socials {
+    width: 40%;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: black;
+    margin-left: 10%;
+}
+
+.socials a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.socials a:hover{
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.footnote {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
