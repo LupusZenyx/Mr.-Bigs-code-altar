@@ -1,0 +1,13 @@
+Aufgabe
+rechnen sie 123m meter in picometer um!
+a) schreiben sie den wert in exponentialschreibweise (min 1 max 9)
+b) ermitteln sie den umrechnungfaktor von meter zu picometer undführen sie die berechnung durch
+
+
+	a) 123000000000000000000 [=] 1,23 * 10^20
+
+	b) Umrechnungsfaktor [Meter] * [10^12]
+
+
+	c) 0,0000123 Meter in Picometer
+	     0,0000123 * 10^12 [=] 12300000 1,23 * 10^7

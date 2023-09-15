@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umrechnung von Größeneinheiten</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <div class="container bevelup">
+        <div class="title">
+            Einheitenumrechner
+        </div>
+        <div class="input-section">
+            <label class="label">Wert:</label>
+            <input type="number" oninput="selectState()" onchange="selectState()" class="beveldn" value="5" id="inputID">
+            <br>
+            <label class="label">Von</label>
+            <select id="sourceUnitID" class="bevelup">
+                <option value="kb">kb</option>
+                <option value="mb">mb</option>
+                <option value="gb">gb</option>
+                <option value="tb">tb</option>
+                <option value="kib">kib</option>
+                <option value="mib">mib</option>
+                <option value="gib">gib</option>
+                <option value="tib">tib</option>
+
+            </select>
+            <br>
+            <label class="label">Nach</label>
+            <select id="targetUnitID" class="bevelup">
+                <option value="kb">kb</option>
+                <option value="mb">mb</option>
+                <option value="gb">gb</option>
+                <option value="tb">tb</option>
+                <option value="kib">kib</option>
+                <option value="mib">mib</option>
+                <option value="gib">gib</option>
+                <option value="tib">tib</option>
+            </select>
+        </div>
+       <!-- <button class="bevelup" onclick="selectState()">Konvertieren</button>-->
+        <div id="resultID">
+            noch nichts convertiert
+        </div>
+    </div>
+</body>
+
+</html>
